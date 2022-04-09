@@ -10,4 +10,4 @@ RUN yarn install
 COPY ./app .
 
 # サーバー起動
-ENTRYPOINT [ "yarn", "dev" ]
+CMD [ "yarn", "build" ]
